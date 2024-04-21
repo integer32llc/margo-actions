@@ -1,0 +1,13 @@
+name: "Static Registry"
+description: "Add a crate to the Margo registry"
+inputs:
+  crates:
+    description: "The paths of the crates to publish. Accepts glob expressions"
+    required: true
+  gh-token:
+    description: "The GitHub token to use"
+    required: true
+    default: "gh-pages"
+runs:
+  using: "node20"
+  main: "dist/main/index.js"
