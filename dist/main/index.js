@@ -30972,7 +30972,7 @@ const $47c0212e00d0729c$export$d75c42239dd6bc1d = function createActionAuth2() {
 
 const $60cd25693160ed07$var$owner = "integer32llc";
 const $60cd25693160ed07$var$repo = "margo";
-const $60cd25693160ed07$var$tag = "0.1.0";
+const $60cd25693160ed07$var$tag = "0.1.1";
 async function $60cd25693160ed07$var$downloadStaticRegistryTool() {
     let authFn = $47c0212e00d0729c$export$d75c42239dd6bc1d();
     let auth = await authFn();
