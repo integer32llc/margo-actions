@@ -8,6 +8,10 @@ inputs:
     description: "The GitHub token to use"
     required: true
     default: "gh-pages"
+  registry-dir:
+    description: "The directory to publish the registry to"
+    required: false
+    default: "."
 runs:
   using: "node20"
   main: "dist/main/index.js"
