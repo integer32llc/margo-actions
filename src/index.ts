@@ -52,6 +52,7 @@ async function ensureStaticRegistryTool() {
 
 async function run() {
   let cratePathsPattern = actions.getInput("crates");
+  let registryDir = actions.getInput("registry-dir");
   let cratePathsGlob = await glob.create(cratePathsPattern, {
     matchDirectories: false,
   });
@@ -64,7 +65,12 @@ async function run() {
 
   await actions.group("Publish code to registry", async () => {
     for (const cratePath of cratePaths) {
-      await exec.getExecOutput("margo", ["add", "--registry", ".", cratePath]);
+      await exec.getExecOutput("margo", [
+        "add",
+        "--registry",
+        registryDir,
+        cratePath,
+      ]);
     }
   });
 }
