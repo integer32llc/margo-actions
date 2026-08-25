@@ -5,8 +5,8 @@
   "license": "MIT OR Apache-2.0",
   "private": true,
   "engines": {
-    "node": ">=20",
-    "pnpm": ">=8"
+    "node": ">=26",
+    "pnpm": ">=11"
   },
   "@parcel/resolver-default": {
     "packageExports": true
