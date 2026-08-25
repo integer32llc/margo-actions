@@ -54,7 +54,7 @@ jobs:
 
 ## Inputs
 
-| Input      | Default | Description                                 |
-| ---------- | ------- | ------------------------------------------- |
-| `crates`   | N/A     | A glob expression for the crates to publish |
-| `registry` | `'.'`   | The path to the Margo registry directory    |
+| Input          | Default | Description                                 |
+| -------------- | ------- | ------------------------------------------- |
+| `crates`       | N/A     | A glob expression for the crates to publish |
+| `registry-dir` | `'.'`   | The path to the Margo registry directory    |
