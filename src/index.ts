@@ -7,7 +7,7 @@ import * as authAction from "@octokit/auth-action";
 
 const owner = "integer32llc";
 const repo = "margo";
-const tag = "0.1.3";
+const tag = "0.1.7";
 
 async function downloadStaticRegistryTool(): Promise<string> {
   let authFn = authAction.createActionAuth();
