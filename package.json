@@ -25,7 +25,7 @@
     "fmt:check": "prettier . --check"
   },
   "devDependencies": {
-    "@parcel/transformer-typescript-types": "2.12.0",
+    "@parcel/transformer-typescript-types": "^2.12.0",
     "parcel": "^2.12.0",
     "prettier": "^3.2.5",
     "typescript": "^5.4.0"
